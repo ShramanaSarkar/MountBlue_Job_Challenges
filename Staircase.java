@@ -1,24 +1,14 @@
 
 import java.io.*;
-        import java.math.*;
-        import java.security.*;
-        import java.text.*;
-        import java.util.*;
-        import java.util.concurrent.*;
-        import java.util.function.*;
-        import java.util.regex.*;
-        import java.util.stream.*;
-        import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+import java.util.*;
 
-class Result5 {
 
+class Result4 {
     /*
      * Complete the 'staircase' function below.
      *
      * The function accepts INTEGER n as parameter.
      */
-
     public static void staircase(int n) {
         for(int i=1; i<=n; i++){
 
@@ -43,7 +33,7 @@ public class Staircase {
         int n = sc.nextInt();
 
         System.out.println("Staircase: ");
-        Result5.staircase(n);
+        Result4.staircase(n);
 
 
     }
